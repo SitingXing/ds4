@@ -1,0 +1,36 @@
+body{
+    padding: 10px;
+    background-color: #a5a58d;
+    font-size: 125%;
+}
+
+li{
+    display: inline-block;
+    margin: 5px;
+    padding-right: 20px;
+}
+
+li a:active{
+    color: goldenrod;
+    text-transform: uppercase;
+    text-decoration: wavy underline goldenrod;
+}
+
+.skip{
+    position: absolute;
+    left: -1000px;
+}
+
+.skip:focus{
+    left: 0;
+}
+
+img{
+    margin: auto;
+    display: block;
+}
+
+img:hover{
+    border: goldenrod 4px dashed;
+    border-radius: 10px;
+}
